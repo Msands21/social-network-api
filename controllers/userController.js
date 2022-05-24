@@ -65,7 +65,6 @@ const userController = {
                                 res.status(500).json({ message: 'there was an error!' });
                                 return;
                             }
-
                             res.json(dbUserData)
                         })
                         .catch(err => {
